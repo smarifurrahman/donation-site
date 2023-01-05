@@ -137,6 +137,20 @@ hr {
 
 /* Description Section */
 
+.description-section h2, p {
+    margin-bottom: 20px;
+}
+
+.row-1, .row-2{
+    display: flex;
+    gap: 85px;
+    text-align: left;
+    margin: 0 200px;
+}
+
+.row-1 {
+    margin-bottom: 100px;
+}
 
 
 /* Updates Section */
