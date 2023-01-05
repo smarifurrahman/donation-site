@@ -15,6 +15,7 @@
 
 section {
     text-align: center;
+    margin-top: 130px;
 }
 
 .section-title {
@@ -29,9 +30,12 @@ section {
     font-size: 18px;
     font-weight: 400;
     color: #707070;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 0px 400px;
 }
 
-.btn-amount{
+.btn-amount {
     font-weight: 700;
     font-size: 30px;
     border: 0;
@@ -83,10 +87,39 @@ section {
 
 /* Donate Section */
 
+.other-amount {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
 
+hr {
+    border: 1px solid #DADADA;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
 
 /* Plan Section */
+.plan-list {
+    display: flex;
+}
 
+.section-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+}
+
+.section-sub-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 0px 400px;
+}
 
 
 /* Description Section */
