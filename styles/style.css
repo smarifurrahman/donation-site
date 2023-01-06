@@ -161,11 +161,13 @@ hr {
 
 /* Description Section */
 
-.description-section h2, .description-section p {
+.description-section h2,
+.description-section p {
     margin-bottom: 20px;
 }
 
-.row-1, .row-2 {
+.row-1,
+.row-2 {
     display: flex;
     gap: 85px;
     text-align: left;
@@ -184,11 +186,11 @@ hr {
 }
 
 .wrapper {
-    margin: 50px 320px;
+    margin: 50px 0px;
     border-top: 80px solid #FFF4D6;
     border-bottom: 80px solid #FFF4D6;
-    border-left: 190px solid #FFF4D6;
-    border-right: 190px solid #FFF4D6;
+    border-left: 250px solid #FFF4D6;
+    border-right: 250px solid #FFF4D6;
 }
 
 .subscribe-section input {
