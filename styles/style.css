@@ -25,6 +25,10 @@ input[type=number] {
     color: #FFFFFF;
 }
 
+.btn-primary:hover {
+    background-color: #fd3e3e;
+}
+
 section {
     text-align: center;
     margin-top: 130px;
@@ -149,14 +153,26 @@ hr {
     padding: 60px 22px 50px;
 }
 
+.plan-1:hover {
+    background-color: rgba(79, 157, 166, 0.2);
+}
+
 .plan-2 {
     background-color: rgba(255, 89, 89, 0.1);
     padding: 60px 22px 50px;
 }
 
+.plan-2:hover {
+    background-color: rgba(255, 89, 89, 0.2);
+}
+
 .plan-3 {
     background-color: #FFF4D6;
     padding: 60px 22px 50px;
+}
+
+.plan-3:hover {
+    background-color: #fdeec6;
 }
 
 /* Description Section */
@@ -178,6 +194,16 @@ hr {
 .row-1 {
     margin-bottom: 100px;
 }
+
+.img-des {
+    opacity: 0.9;
+    transition: 0.4s ease;
+}
+
+.img-des:hover {
+    opacity: 1;
+}
+
 
 /* subscribe-section */
 .wrapper-button {
@@ -210,11 +236,19 @@ hr {
     outline: none;
 }
 
+.sub-mail:hover {
+    background-color: #c9c9c9;
+}
+
 .sub-btn {
     border: none;
     background-color: #FF5959;
     padding: 14px 42px;
     border-radius: 0 5px 5px 0;
+}
+
+.sub-btn:hover {
+    background-color: #fd3e3e;
 }
 
 /* Footer Section */
