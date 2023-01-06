@@ -170,6 +170,7 @@ hr {
     gap: 85px;
     text-align: left;
     margin: 0 200px;
+    align-items: center;
 }
 
 .row-1 {
