@@ -1,6 +1,17 @@
 * {
     margin: 0;
 }
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
 
 /* Common Styles */
 .btn-primary {
@@ -43,8 +54,14 @@ section {
     width: 136px;
     height: 123px;
     background-color: #FAFAFA;
-    color: #FF5959;
+    color: #707070;;
     font-family: 'Inter', sans-serif;
+}
+
+.btn-amount:hover {
+    border: 2px solid #FF5959;
+    color: #FF5959;
+    background-color: #FFEEEE;
 }
 
 .amount-selection {
@@ -92,13 +109,20 @@ section {
 /* Donate Section */
 
 .other-amount {
+    border: none;
     margin-top: 60px;
     margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #B3B3B3;
+    outline: none;
+    text-align: center;
 }
 
 hr {
     border: 1px solid #DADADA;
-    width: 60%;
+    width: 58%;
     margin: auto;
     margin-bottom: 30px;
 }
@@ -179,6 +203,7 @@ hr {
     background-color: #D9D9D9;
     padding: 14px 17px;
     border-radius: 5px 0 0 5px;
+    outline: none;
 }
 .sub-btn {
     border: none;
