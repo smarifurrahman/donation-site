@@ -1,16 +1,17 @@
 * {
     margin: 0;
 }
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /* Firefox */
 input[type=number] {
-  -moz-appearance: textfield;
+    -moz-appearance: textfield;
 }
 
 /* Common Styles */
@@ -46,38 +47,6 @@ section {
     padding: 0px 400px;
 }
 
-.btn-amount {
-    font-weight: 700;
-    font-size: 30px;
-    border: 0;
-    border-radius: 5px;
-    width: 136px;
-    height: 123px;
-    background-color: #FAFAFA;
-    color: #707070;;
-    font-family: 'Inter', sans-serif;
-}
-
-.btn-amount:hover {
-    border: 2px solid #FF5959;
-    color: #FF5959;
-    background-color: #FFEEEE;
-}
-
-.amount-selection {
-    display: flex;
-    gap: 44px;
-    justify-content: center;
-}
-
-.section-description {}
-
-.color-theme {}
-
-.color-primary {}
-
-.color-secondary {}
-
 /* Header Section */
 .header {
     background-image: url('../resources/images/donation13.jpg');
@@ -107,6 +76,37 @@ section {
 
 
 /* Donate Section */
+.amount-selection {
+    display: flex;
+    gap: 44px;
+    justify-content: center;
+}
+
+.btn-amount {
+    font-weight: 700;
+    font-size: 30px;
+    border: 0;
+    border-radius: 5px;
+    width: 136px;
+    height: 123px;
+    background-color: #FAFAFA;
+    color: #707070;
+    ;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-amount:hover {
+    border: 2px solid #FF5959;
+    color: #FF5959;
+    background-color: #FFEEEE;
+}
+
+hr {
+    border: 1px solid #DADADA;
+    width: 58%;
+    margin: auto;
+    margin-bottom: 30px;
+}
 
 .other-amount {
     border: none;
@@ -118,13 +118,6 @@ section {
     color: #B3B3B3;
     outline: none;
     text-align: center;
-}
-
-hr {
-    border: 1px solid #DADADA;
-    width: 58%;
-    margin: auto;
-    margin-bottom: 30px;
 }
 
 /* Plan Section */
@@ -150,26 +143,29 @@ hr {
     font-weight: 400;
     color: #707070;
 }
-.plan-1{
+
+.plan-1 {
     background-color: rgba(79, 157, 166, 0.1);
     padding: 60px 22px 50px;
 }
-.plan-2{
+
+.plan-2 {
     background-color: rgba(255, 89, 89, 0.1);
     padding: 60px 22px 50px;
 }
-.plan-3{
+
+.plan-3 {
     background-color: #FFF4D6;
     padding: 60px 22px 50px;
 }
 
 /* Description Section */
 
-.description-section h2, p {
+.description-section h2, .description-section p {
     margin-bottom: 20px;
 }
 
-.row-1, .row-2{
+.row-1, .row-2 {
     display: flex;
     gap: 85px;
     text-align: left;
@@ -180,8 +176,12 @@ hr {
     margin-bottom: 100px;
 }
 
-
 /* subscribe-section */
+.wrapper-button {
+    display: flex;
+    justify-content: center;
+}
+
 .wrapper {
     margin: 50px 320px;
     border-top: 80px solid #FFF4D6;
@@ -189,7 +189,8 @@ hr {
     border-left: 190px solid #FFF4D6;
     border-right: 190px solid #FFF4D6;
 }
-.subscribe-section input, .subscribe-section button {
+
+.subscribe-section input {
     float: left;
     font-size: 16px;
     font-weight: 400;
@@ -205,16 +206,12 @@ hr {
     border-radius: 5px 0 0 5px;
     outline: none;
 }
+
 .sub-btn {
     border: none;
     background-color: #FF5959;
     padding: 14px 42px;
     border-radius: 0 5px 5px 0;
-}
-
-.wrapper-button {
-    display: flex;
-    justify-content: center;
 }
 
 /* Footer Section */
@@ -229,6 +226,7 @@ hr {
     font-size: 30px;
     color: #FF5959;
 }
+
 .footer-sub-title {
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
@@ -236,6 +234,7 @@ hr {
     margin: 20px 0 10px;
 
 }
+
 .heart {
     color: #BF1004;
     padding-left: 8px;
