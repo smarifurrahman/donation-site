@@ -84,6 +84,10 @@ section {
     padding: 30px 80px;
 }
 
+.btn-icon {
+    padding-left: 5px;
+}
+
 
 /* Donate Section */
 
@@ -153,7 +157,7 @@ hr {
 }
 
 
-/* Updates Section */
+/* subscribe-section */
 .wrapper {
     margin: 50px 320px;
     border-top: 80px solid #FFF4D6;
@@ -161,11 +165,11 @@ hr {
     border-left: 190px solid #FFF4D6;
     border-right: 190px solid #FFF4D6;
 }
-.wrapper input, button {
+.subscribe-section input, .subscribe-section button {
     float: left;
     font-size: 16px;
     font-weight: 400;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
 }
 
@@ -188,5 +192,31 @@ hr {
     justify-content: center;
 }
 
-
 /* Footer Section */
+.footer-section {
+    background-color: #0B0D17;
+    padding: 50px;
+    text-align: center;
+}
+
+.footer-title {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #FF5959;
+}
+.footer-sub-title {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 20px 0 10px;
+
+}
+.heart {
+    color: #BF1004;
+    padding-left: 8px;
+}
+
+.social {
+    color: #FFFFFF;
+    padding: 0 4px;
+}
