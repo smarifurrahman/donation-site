@@ -154,8 +154,39 @@ hr {
 
 
 /* Updates Section */
+.wrapper {
+    margin: 50px 320px;
+    border-top: 80px solid #FFF4D6;
+    border-bottom: 80px solid #FFF4D6;
+    border-left: 190px solid #FFF4D6;
+    border-right: 190px solid #FFF4D6;
+}
+.wrapper input, button {
+    float: left;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+}
 
+.sub-mail {
+    border: none;
+    color: #AA9F9F;
+    background-color: #D9D9D9;
+    padding: 14px 17px;
+    border-radius: 5px 0 0 5px;
+}
+.sub-btn {
+    border: none;
+    background-color: #FF5959;
+    padding: 14px 42px;
+    border-radius: 0 5px 5px 0;
+}
 
+.wrapper-button {
+    display: flex;
+    justify-content: center;
+}
 
 
 /* Footer Section */
